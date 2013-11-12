@@ -1,9 +1,9 @@
 Go Whitespace
 =============
 
-A small Golang library for dealing with library.
+A small Golang library for dealing with whitespace.
 
-Note that this accounts for all 26 UNICODE whitespace characters.
+Note that this Go library accounts for all 26 UNICODE whitespace characters (and not just the standard ASCII ones).
 
 
 Usage
