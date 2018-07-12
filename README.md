@@ -27,7 +27,7 @@ import "github.com/reiver/go-whitespace"
 
 // ...
 
-if whitespaceIsMandatoryBreak(r) {
+if whitespace.IsMandatoryBreak(r) {
 	//@TODO: Do something.
 }
 
