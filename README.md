@@ -1,10 +1,16 @@
-Go Whitespace
-=============
+# go-whitespace
 
 A small Golang library for dealing with whitespace.
 
 Note that this Go library accounts for all 26 UNICODE whitespace characters (and not just the standard ASCII ones),
 as well as accounts for all 7 UNICODE mandatory break characters.
+
+
+## Documention
+
+Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-whitespace
+
+[![GoDoc](https://godoc.org/github.com/reiver/go-whitespace?status.svg)](https://godoc.org/github.com/reiver/go-whitespace)
 
 
 Usage
