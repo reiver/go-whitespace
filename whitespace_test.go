@@ -85,18 +85,16 @@ func TestWhitespace(t *testing.T) {
 	}
 
 
-
-	for _,datum := range tests {
+	for testNumber, datum := range tests {
 
 		expected := datum.Expected
 
 		actual := IsWhitespace(datum.R)
 
 		if expected != actual {
-			t.Errorf("For rune [%v] ([%v]) expected it to be [%v] that it is white space, but instead got [%v].", datum.R, string(datum.R), expected, actual)
+			t.Errorf("For test #%d, expected whitespace.IsWhitespace(%q = %d) = %t, but actually got whitespace.IsWhitespace(%q = %d) = %v.", testNumber, datum.R, datum.R, expected, datum.R, datum.R, actual)
 		}
 
-	} // for
-
+	}
 }
 
